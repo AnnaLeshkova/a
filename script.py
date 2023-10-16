@@ -234,6 +234,13 @@ def sum_array(a):
         sum += i
     return sum    
 55.
+def double_char(s):
+    return (''.join([i for t in zip(s, s) for i in t]))
+56.
+def litres(time):
+    water=time/2
+    return int(water)
+57. 
 
 
 
