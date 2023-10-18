@@ -255,7 +255,26 @@ def sum_mix(arr):
     int_arr = [int(x) for x in arr]
     return sum(int_arr)
     
+Bash
+1.
+#!/bin/bash
 
+countToTwenty() {
+for (( i=1; i <= 20; i++ ))
+do
+echo "Count: $i"
+done
+}
+
+countToTwenty
+
+2.
+a=$1
+b=$2
+c=$((180-$a-$b))
+echo $c
+
+3.
 
 
 
