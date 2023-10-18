@@ -241,8 +241,20 @@ def litres(time):
     water=time/2
     return int(water)
 57. 
-
-
+def is_uppercase(inp):
+    return inp == inp.upper()
+58.
+def is_palindrome(s):
+    s = s.replace(' ','').lower()
+    return True if s == s[::-1] else False
+59.
+def sort_by_length(arr):
+    return sorted(arr, key=len)
+60.
+def sum_mix(arr):
+    int_arr = [int(x) for x in arr]
+    return sum(int_arr)
+    
 
 
 
